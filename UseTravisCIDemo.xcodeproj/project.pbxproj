@@ -302,6 +302,7 @@
 				DBAE9CC51CF7EC0100955469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
