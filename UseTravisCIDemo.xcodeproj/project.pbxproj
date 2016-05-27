@@ -12,7 +12,6 @@
 		DBAE9CB71CF7EC0100955469 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAE9CB61CF7EC0100955469 /* ViewController.m */; };
 		DBAE9CBA1CF7EC0100955469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE9CB81CF7EC0100955469 /* Main.storyboard */; };
 		DBAE9CBC1CF7EC0100955469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAE9CBB1CF7EC0100955469 /* Assets.xcassets */; };
-		DBAE9CBF1CF7EC0100955469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE9CBD1CF7EC0100955469 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		DBAE9CB61CF7EC0100955469 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DBAE9CB91CF7EC0100955469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBAE9CBB1CF7EC0100955469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBAE9CBE1CF7EC0100955469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBAE9CC01CF7EC0100955469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 				DBAE9CB61CF7EC0100955469 /* ViewController.m */,
 				DBAE9CB81CF7EC0100955469 /* Main.storyboard */,
 				DBAE9CBB1CF7EC0100955469 /* Assets.xcassets */,
-				DBAE9CBD1CF7EC0100955469 /* LaunchScreen.storyboard */,
 				DBAE9CC01CF7EC0100955469 /* Info.plist */,
 				DBAE9CAF1CF7EC0100955469 /* Supporting Files */,
 			);
@@ -136,7 +133,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBAE9CBF1CF7EC0100955469 /* LaunchScreen.storyboard in Resources */,
 				DBAE9CBC1CF7EC0100955469 /* Assets.xcassets in Resources */,
 				DBAE9CBA1CF7EC0100955469 /* Main.storyboard in Resources */,
 			);
@@ -164,14 +160,6 @@
 				DBAE9CB91CF7EC0100955469 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DBAE9CBD1CF7EC0100955469 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBAE9CBE1CF7EC0100955469 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
