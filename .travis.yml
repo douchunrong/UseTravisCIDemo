@@ -1,4 +1,2 @@
 language: objective-c
-xcode_project: UseTravisCIDemo.xcodeproj
-xcode_scheme: UseTravisCIDemo
-xcode_sdk: iphonesimulator8.1
+script: xcodebuild -project UseTravisCIDemo.xcodeproj -scheme UseTravisCIDemo -configuration Debug -sdk iphonesimulator -destination 'name=iPhone 6'
