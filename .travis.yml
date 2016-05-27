@@ -1,10 +1,4 @@
-language:objective-c
-osx_image: xcode7.3
-
-xcode_project:UseTravisCIDemo.xcodeproj
-
-xcode_scheme:UseTravisCIDemo
-
-xcode_sdk:iphonesimulator6
-
-# script:xcodebuild -project UseTravisCIDemo.xcodeproj -scheme UseTravisCIDemo -configuration Debug -sdk iphonesimulator -destination 'name=iPhone 6' 
+language: objective-c
+xcode_project: UseTravisCIDemo.xcodeproj
+xcode_scheme: UseTravisCIDemo
+xcode_sdk: iphonesimulator6
